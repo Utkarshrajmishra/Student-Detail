@@ -1,41 +1,60 @@
-const EducationalDetailFrom = () => {
+const EducationalDetailForm = () => {
   return (
-    <section>
-      <div>
-        <h2>Educational Details</h2>
-        <p>Please provide your educational details</p>
+    <section className="font-Poppins text-marine_blue flex flex-col gap-4">
+      <div className="flex flex-col gap-2">
+        <h3 className="text-3xl font-extrabold">Educational Details</h3>
+        <p className="text-cool_gray text-sm">
+          Please provide your educational details
+        </p>
       </div>
-      <div>
-        <div>
-          <label htmlFor="institution">Intitution</label>
-          <input
-            type="text"
-            name="institution"
-            id="institution"
-            placeholder="Input yours institution"
-          />
-        </div>
-        <div>
-          <label htmlFor="degree">Degree</label>
-          <input
-            type="text"
-            name="degree"
-            id="degree"
-            placeholder="Input yours degree"
-          />
-        </div>
-
-        <div>
-          <label htmlFor="enrollDate">Enroll Date</label>
-          <input type="date" name="enrollDate" id="enrollDate" />
-        </div>
-        <div>
-          <label htmlFor="endDate">End Date</label>
-          <input type="date" name="endDate" id="endDate" />
-        </div>
+      <div className="flex flex-col mt-3 gap-1">
+        <label htmlFor="institution" className="text-sm font-semibold">
+          Institution
+        </label>
+        <input
+          className="p-2 rounded-md text-sm outline outline-1 outline-marine_blue"
+          type="text"
+          name="institution"
+          id="institution"
+          placeholder="Input your institution"
+        />
+      </div>
+      <div className="flex flex-col gap-1">
+        <label htmlFor="degree" className="text-sm font-semibold">
+          Degree
+        </label>
+        <input
+          className="p-2 rounded-md text-sm outline outline-1 outline-marine_blue"
+          type="text"
+          name="degree"
+          id="degree"
+          placeholder="Input your degree"
+        />
+      </div>
+      <div className="flex flex-col gap-1">
+        <label htmlFor="enrollDate" className="text-sm font-semibold">
+          Enroll Date
+        </label>
+        <input
+          className="p-2 rounded-md text-sm outline outline-1 outline-marine_blue"
+          type="date"
+          name="enrollDate"
+          id="enrollDate"
+        />
+      </div>
+      <div className="flex flex-col gap-1">
+        <label htmlFor="endDate" className="text-sm font-semibold">
+          End Date
+        </label>
+        <input
+          className="p-2 rounded-md text-sm outline outline-1 outline-marine_blue"
+          type="date"
+          name="endDate"
+          id="endDate"
+        />
       </div>
     </section>
   );
 };
 
-export default EducationalDetailFrom;
+export default EducationalDetailForm;

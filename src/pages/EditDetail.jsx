@@ -19,12 +19,12 @@ const EditDetail = () => {
 
   return (
     <>
-      <section className="w-full h-[100vh] bg-smoky_black flex items-center justify-center">
-        <div className="w-[800px] h-fit bg-eerie_black_2 p-4 rounded-2xl">
+      <section className="w-full h-[100vh] bg-magnolia flex items-center justify-center">
+        <div className="w-[800px] h-fit bg-white p-4 rounded-2xl">
           <div>
             {step}
             {!isFirstStep && <button onClick={back}>Back</button>}
-             <button onClick={next}>{isLastStep?'Cofirm':'Next'}</button>
+            <button onClick={next}>{isLastStep ? 'Cofirm' : 'Next'}</button>
           </div>
         </div>
       </section>

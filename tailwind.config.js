@@ -7,18 +7,21 @@ export default {
         Poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
-        jet: '#343434',
-        onyx: '#353935',
-        eerie_black_2: '#1e1e1f',
-        eerie_black_1: '##202022',
-        smoky_black: '#121212',
-        white_1: '#ffffff',
-        white_2: '#fafafa',
-        orange_yellow_crayalo: '#ffdb70',
-        vegas_gold: '#ceb15a',
-        light_ray: '#d6d6d6',
-        bittersweet_shimmer: '#b84c4c',
-        light_gray_70: '#d6d6d6',
+        // Blue shades
+        marine_blue: 'hsl(213, 96%, 18%)',
+        purplish_blue: 'hsl(243, 100%, 62%)',
+        pastel_blue: 'hsl(228, 100%, 84%)',
+        light_blue: 'hsl(206, 94%, 87%)',
+        strawberry_red: 'hsl(354, 84%, 57%)',
+
+        // Neutral shades
+        cool_gray: 'hsl(231, 11%, 63%)',
+        light_gray: 'hsl(229, 24%, 87%)',
+        magnolia: 'hsl(217, 100%, 97%)',
+        alabaster: 'hsl(231, 100%, 99%)',
+        white: 'hsl(0, 0%, 100%)',
+
+       
       },
     },
   },
