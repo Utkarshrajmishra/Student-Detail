@@ -2,7 +2,7 @@ import { useState } from "react"
 
 
 //Custom hook to handle form
-export const useMultistepForm = (steps) => {
+const useMultistepForm = (steps) => {
   // State to keep track of the current step in the form
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
 
@@ -38,3 +38,5 @@ export const useMultistepForm = (steps) => {
     isLastStep: currentStepIndex === steps.length - 1,
   }
 }
+
+export default useMultistepForm

@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Poppins: ['Poppins', 'sans-serif'],
+        Ubuntu: ['Ubuntu', 'sans-serif'],
       },
       colors: {
         // Blue shades
@@ -20,8 +20,6 @@ export default {
         magnolia: 'hsl(217, 100%, 97%)',
         alabaster: 'hsl(231, 100%, 99%)',
         white: 'hsl(0, 0%, 100%)',
-
-       
       },
     },
   },
