@@ -1,10 +1,21 @@
 import Sidebackground from '../assets/images/bg-sidebar-desktop.svg';
 import PersonalDetailForm from '../components/EditForm/PersonalDetail';
+import EducationalDetailFrom from '../components/EditForm/EducationDetail';
+import CourseDetailForm from '../components/EditForm/EditForm/CourseDetail';
 import { useMultistepForm } from '../hooks/useMutlistepForm';
+
+
+ 
+
+
 
 const EditDetail = () => {
   const { currentStepIndex, step, back, next, isFirstStep, isLastStep } =
-    useMultistepForm([<PersonalDetailForm/>, <div>2</div>, <div>3</div>, <div>4</div>]);
+    useMultistepForm([
+      <PersonalDetailForm />,
+      <EducationalDetailFrom />,
+      <CourseDetailForm/>,
+    ]);
 
   return (
     <>
